@@ -50,7 +50,7 @@ def actions2file(actions,file):
         fh.write (str(action))
     fh.close()
 
-# Write your functons here
+# My functions start here, rest were given by in class by Professor Gacs of Boston University
 
 def maxtrixInitiate(s1, s2):
     # Creates matrix of right size
@@ -215,7 +215,7 @@ def main():
     s2 = file2string(inFile2)
     # sys.stderr.write("Files read\n")
     
-    # Write here the part that computes a list of actions called actions
+    # The above codes in main where also given by Professor Gacs of Boston University
     
     actions = maxtrixInitiate('name', 'mean')
     

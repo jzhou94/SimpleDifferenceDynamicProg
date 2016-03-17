@@ -1,0 +1,15 @@
+To run the program, run on python 3 from module.
+
+Input two strings, one to convert to another.
+This can be done in two ways, first of which is to input two strings into the maxtrixInitiate function on line 220 in main().
+The second way is to input the two strings in inFile1 and inFile2, then input s1 and s2 maxtrixInitiate function on line 220 in main().
+
+The corresponding results are outputted to the actionFile.
+
+The actionFile gives a series of instructions as to the most efficient way of converting string 1 into string 2.
+ADD or DEL means add or delete letters.
+The first number represents position in string 1 where add or delete action applies.
+The second number presents number of letters deleted or added.
+In add the last letters represent what letters are added.
+
+Actions are in reverse, so the last actions should be applied first.
